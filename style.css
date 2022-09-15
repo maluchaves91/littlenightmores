@@ -1,0 +1,20 @@
+body{
+    background-color:#575c5c;
+    text-align:center;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  img{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  #isqueiro{
+    width: 200px;
+  }
+  
+  
+  #tema{
+    width: 300px;
+  }
