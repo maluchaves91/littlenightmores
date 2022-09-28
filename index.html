@@ -1,26 +1,47 @@
 <html>
-  <head>
-    <title>Little Nightmares</title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Little Nightmares</h1>
-    <span>
-    <img id="isqueiro"  src="1.png">
-    </span>
-    
-    <span>
-    <img id="little"src="https://th.bing.com/th/id/OIP.iV_sirb7nqbIRvtRn46BrAHaEK?w=300&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
-    </span>
-    
-    <span>
-    <img id="tema"src="2.png">
-    </span>
+
+<head>
+  <title>Little Nightmares</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="main.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+  <h1>Little Nightmares</h1>
+<div>
+  <button onclick="mudarTema()" id="bt1"> Mudar Tema </button>
+  <button onclick="voltarTema()" id="bt2"> Voltar Tema </button>
+</div>
+  <span>
+    <img id="isqueiro" src="1.png">
+  </span>
+
+  <span>
+    <img id="little" 
+    onmouseleave="changeImageLeave()" 
+    onmouseover="changeImageOver()" style="width:300px;" 
+      src="https://th.bing.com/th/id/OIP.iV_sirb7nqbIRvtRn46BrAHaEK?w=300&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" >
+  </span>
+
+  <span>
+    <img id="tema" src="2.png">
+  </span>
+
+  <br>
+  <p>Little Nightmares é um jogo de aventura de quebra-cabeça de terror. Jogue como Six, uma jovem garota perdida em um
+    hotel estranho cheio de convidados perigosos e quebra-cabeças complicados enquanto tenta escapar do perigo a cada
+    esquina.</p>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aOadxZBsPiA" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+    <script>
       
-      <br>
-    <p>Little Nightmares é um jogo de aventura de quebra-cabeça de terror. Jogue como Six, uma jovem garota perdida em um hotel estranho cheio de convidados perigosos e quebra-cabeças complicados enquanto tenta escapar do perigo a cada esquina.</p>
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aOadxZBsPiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-  </body>
+    </script>
+</body>
+
 </html>

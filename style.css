@@ -1,5 +1,5 @@
 body{
-    background-color:#575c5c;
+    background-color:rgb(87, 92, 92);
     text-align:center;
     padding-right: 60px;
     padding-left: 60px;
@@ -17,4 +17,18 @@ body{
   
   #tema{
     width: 300px;
+  }
+
+  h1{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+  }
+
+  button {
+    background-color: dimgrey;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    border-radius: 50px;
+    padding: 5px;
   }
